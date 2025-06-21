@@ -31,7 +31,7 @@ public class Cuenta {
          
      }
     //metodo get monto
-     public double getMonto(double monto){
+     public double getMonto(){
           
        return this.monto;  
      }
@@ -48,4 +48,6 @@ public class Cuenta {
      }
      
      }
+
+    
 }

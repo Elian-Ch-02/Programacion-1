@@ -35,4 +35,11 @@ public class CuentaAhorros extends Cuenta {
         super.extractoMensual();
         activa = saldo < 10000;
     }
+    
+    public void imprimir(){
+        System.out.println("Saldo " + saldo);
+        System.out.println("Comision Mensual: " + comisionMensual);
+        System.out.println("Numero de transaccion : " + (numeroConsignaciones + numeroRetiros));
+        System.out.println("");
+    }
 }

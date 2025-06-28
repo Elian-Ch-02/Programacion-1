@@ -1,13 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package s06.herenciapoo;
 
 /**
  *
  * @author UCC
  */
-public class CuentaCorriente {
+public class CuentaCorriente extends Cuenta{
     
+    private float sobregiro;
+    sobregiro = 0;
+    public 
+  
 }

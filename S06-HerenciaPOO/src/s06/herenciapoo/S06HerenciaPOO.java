@@ -10,11 +10,15 @@ package s06.herenciapoo;
  */
 public class S06HerenciaPOO {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+       CuentaAhorros cuenta1 = new CuentaAhorros(15000, 12);
+       
+       cuenta1.imprimir();
+       cuenta1.consignar(5000);
+       cuenta1.imprimir();
+       cuenta1.retirar(28000);
+       cuenta1.imprimir();
     }
     
 }
